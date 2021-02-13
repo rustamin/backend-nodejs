@@ -12,3 +12,5 @@ services:
      - ./api-service/api:/app/api
   db:
     build: ./database-service
+    ports:
+     - "3306:3306"
