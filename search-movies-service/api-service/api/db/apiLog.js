@@ -13,5 +13,8 @@ module.exports = {
     );
     return result;
   },
-  retrieve() {},
+  async list() {
+    let [rows] = await connection.query('select * from api_log');
+    return rows;
+  },
 };
