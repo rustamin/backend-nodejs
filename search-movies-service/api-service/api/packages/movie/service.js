@@ -10,9 +10,7 @@ module.exports = {
         page,
       },
     });
-    let result = await axios({
-      method: 'get',
-      url: 'http://www.omdbapi.com',
+    let result = await axios.get('http://www.omdbapi.com', {
       params: {
         apikey: 'faf7e5bb',
         s: query,
@@ -29,9 +27,7 @@ module.exports = {
         title,
       },
     });
-    let result = await axios({
-      method: 'get',
-      url: 'http://www.omdbapi.com',
+    let result = await axios.get('http://www.omdbapi.com', {
       params: {
         apikey: 'faf7e5bb',
         t: title,
