@@ -1,7 +1,7 @@
 'use strict';
 
 const chai = require('chai');
-const findFirstStringInBracket = require('.');
+const findFirstStringInBracket = require('./findString');
 
 let expect = chai.expect;
 
