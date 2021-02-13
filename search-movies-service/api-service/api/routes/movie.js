@@ -1,7 +1,3 @@
-/**
- * Copyright (c) 2018 Billfazz. All rights reserved.
- */
-
 'use strict';
 
 const express = require('express');
