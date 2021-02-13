@@ -17,8 +17,6 @@ module.exports = () => {
         query: req.query.s,
         page: req.query.page,
       };
-      // console.log('qs', qs);
-      // return res.send('ok')
       let result = await movieService.search(qs);
       res.send(result);
     } catch (err) {
@@ -35,7 +33,6 @@ module.exports = () => {
       };
       let result = await movieService.detail(qs);
       res.send(result);
-    
     } catch (err) {
       console.log('something went wrong', err);
       res.send(500);
