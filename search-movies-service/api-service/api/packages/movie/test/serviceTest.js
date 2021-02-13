@@ -9,7 +9,6 @@ const service = require('../service');
 let connection = require('../../../db/DataBaseHandler');
 const response = require('./response');
 
-
 let expect = chai.expect;
 chai.use(chaiAsPromised);
 
