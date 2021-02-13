@@ -22,7 +22,7 @@ module.exports = {
     return result.data;
   },
 
-  async detail({ endpint, title }) {
+  async detail({ endpoint, title }) {
     await db.apiLog.craete({
       endpoint,
       params: {
