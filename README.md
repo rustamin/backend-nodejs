@@ -15,7 +15,7 @@ left join "USERS" "uParent" on
 2. a
 3. 
    - For simplicity `node_modules` is pushed to the repo
-   - Run unit test `mocha findStringTest.js`
+   - Run unit test `./node_modules/mocha/bin/mocha findStringTest.js `
 
 
 
